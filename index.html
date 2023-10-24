@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Independent IT Services LLC</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .mt-5 {
+            margin-top: 2rem;
+        }
+        .lead {
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h1 class="display-4">About Me</h1>
+            <p class="lead">Hello, I'm Roger Hernandez, the founder of Independent IT Services LLC. I formed Independent IT Services LLC in 2023 as an independent contractor to bring my own personal level of quality to you. I'm the sole employee, and I'm dedicated to providing the highest quality IT and engineering services in the state of Oklahoma.</p>
+            <p class="lead">I offer a wide range of services:</p>
+            <ul>
+                <li>Hardware support</li>
+                <li>Software support</li>
+                <li>Software installations</li>
+                <li>Software development</li>
+                <li>Software development support</li>
+            </ul>
+            <p class="lead">No matter the size of the company, I'm fully committed to addressing your technology needs. Whether you're an individual or a large enterprise, I'm here to provide top-notch IT solutions. <strong>Hablo Español</strong>.</p>
+        </div>
+        <div class="col-md-6">
+            <h2 class="display-4">Contact Me</h2>
+            <p class="lead">Phone: <a href="tel:405-653-7968">405-653-7968</a></p>
+            <p class="lead">Email: <a href="mailto:roger.d.hernandez@outlook.com">roger.d.hernandez@outlook.com</a></p>
+            <a href="https://www.linkedin.com/in/roger-d-hernandez/" class="btn btn-primary" target="_blank">LinkedIn</a>
+            <a href="https://amosroger91.github.io/portfolio/" class="btn btn-success" target="_blank">Portfolio</a>
+            <h2 class="display-4 mt-4">Contact Form</h2>
+            <form action="mailto:roger.d.hernandez@outlook.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="phone">Phone Number (required):</label>
+                    <input type="tel" class="form-control" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" class="form-control" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message (required):</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="service-type">Service Type (required):</label>
+                    <select class="form-control" id="service-type" name="service-type" required>
+                        <option value="Unsure">Unsure</option>
+                        <option value="Software Development">Software Development</option>
+                        <option value="Hardware Support">Hardware Support</option>
+                        <option value="Software Support">Software Support</option>
+                        <option value="Contract Offer">Contract Offer</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-dark text-light text-center py-3">
+    &copy; 2023 Independent IT Services LLC
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
